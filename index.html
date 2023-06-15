@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Plant Shop</title>
+</head>
+<body>
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo">
+                <i class="fas fa-shopping-basket"></i>
+                Plant Shop
+            </a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="Search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#categorias">categorias</a>
+                <a href="#productos">productos</a>
+                <a href="#Testimonios">Testimonios</a>
+                <a href="#contacto">contacto</a>
+            </nav>
+            <div class="icon">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="image">
+            <img src="./mancuernas.webp" alt="Portada de la tienda">
+        </div>
+        <div class="content">
+            <span>Plantas Naturales y Frescas</span>
+            <h3>Productos para decoración</h3>
+            <a href="#" class="btn">Comenzar</a>
+        </div>
+    </section>
+
+
+    <section class="category" id="categorias">
+        <h1 class="heading">Comprar por <span>Categoria</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>Arboles Frutales</h3>
+                <p>50% de descuento</p>
+                <img src="./mancuernas.webp" alt="">
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="box">
+                <h3>Flores</h3>
+                <p>30% de descuento</p>
+                <img src="./mancuernas.webp" alt="">
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="box">
+                <h3>Macetas</h3>
+                <p>10% de descuento</p>
+                <img src="./mancuernas.webp" alt="">
+                <a href="#" class="btn">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="product" id="productos">
+        <h1 class="heading">ultimos <span>Productos</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <span class="discount">-30%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./mancuernas.webp" alt="">
+                <h3>Organic Apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> Q90.00 <span> Q150.00</span></div>
+                <div class="quantity">
+                    <span>cantidad : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/cu</span>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+            <div class="box">
+                <span class="discount">-30%</span>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="./mancuernas.webp" alt="">
+                <h3>Organic Apple</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> Q90.00 <span> Q150.00</span></div>
+                <div class="quantity">
+                    <span>cantidad : </span>
+                    <input type="number" min="1" max="1000" value="1">
+                    <span>/cu</span>
+                </div>
+                <a href="#" class="btn">Añadir al carrito</a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="contacto">
+        <h1 class="heading"><span>Contactame</span> Aqui</h1>
+        <form action="" class="text-center p-4 border border-solid border-neutral-600">
+            <div class="flex justify-between flex-wrap">
+                <input type="text" placeholder="Nombre" class="p-4 text-2xl normal-case my-4 w-[40%] border border-solid border-neutral-600">
+                <input type="email" placeholder="Email" class="p-4 text-2xl normal-case my-4 w-[40%] border border-solid border-neutral-600">
+            </div>
+            <div class="flex justify-between flex-wrap">
+                <input type="number" placeholder="Numero" class="p-4 text-2xl normal-case my-4 w-[40%] border border-solid border-neutral-600">
+                <input type="text" placeholder="Asunto" class="p-4 text-2xl normal-case my-4 w-[40%] border border-solid border-neutral-600">
+            </div>
+            <textarea placeholder="Mensaje" cols="30" rows="10" class="p-4 text-2xl normal-case my-4 w-[100%] border border-solid border-neutral-600 h-[20rem] resize-none w-[100%]"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
